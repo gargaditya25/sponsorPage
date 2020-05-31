@@ -1,0 +1,156 @@
+/* navigation bar */
+#header {
+  background-color: #000;
+  opacity: .9;
+  font-family: 'Julius Sans One', sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+.team-logo {
+  height: 100px;
+  width: 175px;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 8px;
+  font-size: 1.0rem;
+}
+
+.nav-item:hover {
+  font-size: 1.2rem;
+}
+
+/* call to action */
+#cta {
+  padding: 5rem;
+  background-color: #fff;
+  position: relative;
+  padding: 2% 3% 0 3%;
+  text-align: center;
+  color: #333;
+}
+
+.thewhy {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2%;
+}
+
+h2 {
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  color: #333;
+}
+
+.icons {
+  margin-bottom: 1rem;
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+.icons:hover {
+  height: 170px;
+  width: 170px;
+}
+
+.collab {
+  text-align: center;
+  margin-left: auto;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+hr {
+  border: .91px solid;
+  width: 85%;
+}
+
+/* sponsors */
+#sponsors {
+  height: 700px;
+  background-color: #fff;
+  opacity: .9;
+  padding: 1% 1%;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.sponsor-logo {
+  margin: auto;
+  height: 550px;
+  width: 50%;
+}
+
+/* carousel */
+.carousel-indicators {
+  margin-bottom: -40px;
+  color: #000;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+  filter: invert(100%);
+}
+
+/* responsive web page */
+@media (max-width:700px) {
+  .team-logo {
+    display: block;
+  }
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.contacts, .address {
+  padding: 0 4% 4% 4%;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.feedback {
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: -10%;
+}
+
+#googleMap {
+  margin-right: 1%;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 2%;
+}
+
+.social-media-buttons {
+  margin: 20px 15px;
+}
+
+.social-media-buttons:hover {
+  color: #333;
+}
